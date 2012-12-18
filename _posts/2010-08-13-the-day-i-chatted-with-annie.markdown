@@ -1,7 +1,6 @@
 ---
 layout: post
-title: !binary |-
-  VGhlIERheSBJIENoYXR0ZWQgd2l0aCBBbm5p4oCm
+title: The Day I Chatted with Annie...
 wordpress_id: 18
 wordpress_url: !binary |-
   aHR0cDovL3d3dy5jaHJpc2JhY2xpZy5jb20vP3A9MTg=
