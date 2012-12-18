@@ -6,12 +6,13 @@ exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "
 auto: true
 server: true
 pygments: true
+markdown: rdiscount
 
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
 title : Chris Baclig
-tagline: "{{something clever}}"
+tagline: "{{ something_clever }}"
 author :
   name : Chris Baclig
   email : chris@baclig.me
@@ -80,9 +81,9 @@ JB :
   # Set 'provider' to false to turn commenting off globally.
   #
   comments :
-    provider : disqus
+    provider : false
     disqus :
-      short_name : cbaclig
+      short_name : chrisbaclig
     livefyre :
       site_id : 123
     intensedebate :
