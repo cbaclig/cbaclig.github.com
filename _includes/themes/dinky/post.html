@@ -1,0 +1,10 @@
+<section>
+  <h1>{{ page.title }}</h1>
+
+  {{ content }}
+
+  {% assign current_post = page %}
+  {% include themes/dinky/fwd_back_nav.html %}
+
+  {% include JB/comments %}
+</section>
