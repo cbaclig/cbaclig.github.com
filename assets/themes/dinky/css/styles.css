@@ -317,11 +317,10 @@ section {
 /* Footer */
 
 footer {
-  width:170px;
-  float:left;
-  position:fixed;
-  bottom:10px;
-	padding-left: 50px;
+  width:650px;
+  float:right;
+  text-align:center;
+  font-size:10px;
 }
 
 /* Nav */

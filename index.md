@@ -1,10 +1,9 @@
 ---
 layout: default
-tagline: Supporting tagline
 ---
 {% include JB/setup %}
 
-<h1>[{{ site.posts.first.title }}]({{ site.posts.first.url }})</h1>
+<h1>{{ site.posts.first.title }}</h1>
 
 {{ site.posts.first.content }}
 

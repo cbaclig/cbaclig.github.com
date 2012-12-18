@@ -5,7 +5,11 @@
 {% endif %}
 
 {% if current_post.next %}
+  {% if current_post.next.title == site.posts.first.title %}
+  <a href="/" class="right">{{ current_post.next.title }} &raquo;</a>
+  {% else %}
   <a href="{{ current_post.next.url }}" class="right">{{ current_post.next.title }} &raquo;</a>
+  {% endif %}
 {% endif %}
   
 </nav>
