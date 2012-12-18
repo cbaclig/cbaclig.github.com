@@ -1,12 +1,13 @@
-
 <nav>
-  {% if current_post.previous %}
-    <a href="{{ current_post.previous.url }}" class="left">&laquo; {{ current_post.previous.title }}</a>
-  {% endif %}
 
-  {% if current_post.next %}
-    <a href="{{ current_post.next.url }}" class="right">{{ current_post.next.title }} &raquo;</a>
-  {% endif %}
+{% if current_post.previous %}
+  <a href="{{ current_post.previous.url }}" class="left">&laquo; {{ current_post.previous.title }}</a>
+{% endif %}
+
+{% if current_post.next %}
+  <a href="{{ current_post.next.url }}" class="right">{{ current_post.next.title }} &raquo;</a>
+{% endif %}
+  
 </nav>
 
-{{ assign current_post = null }}
+{% assign current_post = null %}
